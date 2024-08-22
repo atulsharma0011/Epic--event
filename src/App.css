@@ -1,0 +1,33 @@
+.gradient-form {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.gradient{
+  padding: 30px;
+  background: linear-gradient(to right, #6868a4, #4d6e80);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler-icon {
+  color: white;
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+  color: #ddd;
+}
+
+
+.img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
