@@ -29,7 +29,7 @@ const {getUser} =useSelector((state)=>state.Reducers)
                         <div className="card h-100">
                           <div className="card-body">
                 <img
-                  src={event?.image?.length > 0 ? event.image[0]?.url:'https://th.bing.com/th/id/OIP.iEtQHT-7JD4GtdP8bwhP-gHaHa?rs=1&pid=ImgDetMain'}
+                  src={'https://th.bing.com/th/id/OIP.iEtQHT-7JD4GtdP8bwhP-gHaHa?rs=1&pid=ImgDetMain'}
                   alt={event.name}
                   className="card-img-top" 
                   style={{ height: '200px',objectFit: 'cover',background:"black" }}
